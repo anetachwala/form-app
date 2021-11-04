@@ -1,0 +1,31 @@
+.Navbar {
+  box-sizing: border-box;
+  width: 152px;
+  height: 100%;
+  background-color: #111022ea;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  display: flex;
+  flex-direction: column;
+}
+
+.Navbar__logo {
+  width: 51px;
+  height: 11px;
+  padding: 16px 0 0 15px;
+}
+
+.Navbar__items {
+  margin-top: 13px;
+}
+
+@media screen and (max-width: 650px) {
+  .Navbar {
+    width: 32%;
+  }
+  .Navbar__logo {
+    padding: 16px 0 0 8px;
+  }
+}

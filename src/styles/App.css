@@ -1,0 +1,11 @@
+.App {
+  box-sizing: border-box;
+  background: url(../assets/background.jpg) no-repeat center;
+  background-color: rgb(160, 204, 160);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

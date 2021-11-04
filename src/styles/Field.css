@@ -1,0 +1,23 @@
+.Field__button {
+  width: 465px;
+  height: 41px;
+  background: white;
+  color: #080606;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  margin-left: 1px;
+  font-size: 15px;
+  padding: 12px 12px 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .Field__button {
+    width: 94%;
+  }
+}

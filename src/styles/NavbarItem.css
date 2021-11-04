@@ -1,0 +1,38 @@
+.NavbarItem {
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .NavbarItem {
+    padding-left: 9px;
+    padding-right: 8px;
+  }
+}
+
+.NavbarItem:hover,
+.NavbarItem--active {
+  background-color: #292a48;
+}
+
+.NavbarItem__left {
+  display: flex;
+}
+
+.NavbarItem__title {
+  font-size: 14px;
+  padding-left: 9px;
+  font-weight: 400;
+  color: white;
+}
+
+.NavbarItem__amount {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8a8995;
+}
